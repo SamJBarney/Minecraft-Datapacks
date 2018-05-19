@@ -1,0 +1,1 @@
+function loots:add_objectives
