@@ -1,4 +1,3 @@
-execute if block ~ ~ ~ minecraft:pumpkin_stem[age=7] run function gs:blocks/trygrow_pumpkin
 execute if block ~ ~ ~ minecraft:pumpkin_stem[age=6] run setblock ~ ~ ~ minecraft:pumpkin_stem[age=7]
 execute if block ~ ~ ~ minecraft:pumpkin_stem[age=5] run setblock ~ ~ ~ minecraft:pumpkin_stem[age=6]
 execute if block ~ ~ ~ minecraft:pumpkin_stem[age=4] run setblock ~ ~ ~ minecraft:pumpkin_stem[age=5]
