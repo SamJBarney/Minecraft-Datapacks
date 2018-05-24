@@ -3,7 +3,7 @@
 	"values": [
 		"minecraft:dirt",
 		"minecraft:stone",
-		"minecraft:grass",
+		"minecraft:grass_block",
 		"minecraft:cobblestone",
 		"minecraft:farmland"
 	]
