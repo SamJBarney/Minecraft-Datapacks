@@ -5,6 +5,8 @@ scoreboard objectives add gs.y dummy
 scoreboard objectives add gs.z dummy
 scoreboard objectives add gs.temp dummy
 
+
+# Configs
 scoreboard objectives add gs.config dummy Configuration
 
 # Crops
@@ -24,10 +26,27 @@ scoreboard players set grow_chance.spruce_sapling gs.config 2
 scoreboard players set grow_chance.oak_sapling gs.config 2
 
 # Spawn Chance
-scoreboard players set spawn_chance.grass gs.config 5
+scoreboard players set spawn_chance.grass gs.config 4
 scoreboard players set spawn_chance.fern gs.config 56
 scoreboard players set spawn_chance.flowers gs.config 9
 scoreboard players set spawn_chance.saplings gs.config 1000
 
+# Disable/enable
+scoreboard players set disable.spawn_on_grass gs.config 0
+scoreboard players set disable.spawn_grass gs.config 0
+scoreboard players set disable.spawn_fern gs.config 0
+scoreboard players set disable.spawn_flowers gs.config 0
+scoreboard players set disable.spawn_saplings gs.config 0
+
+scoreboard players set disable.grow_sapling gs.config 0
+scoreboard players set disable.grow_beetroot gs.config 0
+scoreboard players set disable.grow_carrot gs.config 0
+scoreboard players set disable.grow_melon gs.config 0
+scoreboard players set disable.grow_potato gs.config 0
+scoreboard players set disable.grow_pumpkin gs.config 0
+scoreboard players set disable.grow_wheat gs.config 0
+
+
+# Globals
 scoreboard objectives add gs.globals dummy
 scoreboard players set growth_chance gs.globals 0
