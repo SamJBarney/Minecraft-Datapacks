@@ -1,6 +1,7 @@
 scoreboard objectives add croutching minecraft.custom:minecraft.sneak_time
 scoreboard objectives add twerk_ready dummy
 scoreboard objectives add gs.x dummy
+scoreboard objectives add gs.y dummy
 scoreboard objectives add gs.z dummy
 scoreboard objectives add gs.temp dummy
 
@@ -21,6 +22,15 @@ scoreboard players set "grow_chance.dark_oak_sapling" gs.config 2
 scoreboard players set "grow_chance.jungle_sapling" gs.config 3
 scoreboard players set "grow_chance.spruce_sapling" gs.config 2
 scoreboard players set "grow_chance.oak_sapling" gs.config 2
+
+# Spawn Chance
+scoreboard players set "spawn_chance.grass" gs.config 3
+scoreboard players set "spawn_chance.acacia_sapling" gs.config 301
+scoreboard players set "spawn_chance.birch_sapling" gs.config 302
+scoreboard players set "spawn_chance.dark_oak_sapling" gs.config 303
+scoreboard players set "spawn_chance.jungle_sapling" gs.config 351
+scoreboard players set "spawn_chance.spruce_sapling" gs.config 352
+scoreboard players set "spawn_chance.oak_sapling" gs.config 321
 
 scoreboard objectives add gs.globals dummy
 scoreboard players set "growth_chance" gs.globals 0

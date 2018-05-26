@@ -1,4 +1,3 @@
-function gs:ensure_on_ground
 scoreboard players operation @s gs.temp = "growth_chance" gs.globals
 
 # Crops
@@ -39,5 +38,7 @@ execute if block ~ ~ ~ minecraft:spruce_sapling[stage=0] if score @s gs.temp mat
 execute if block ~ ~ ~ minecraft:oak_sapling[stage=0] run scoreboard players operation @s gs.temp %= "grow_chance.oak_sapling" gs.config
 execute if block ~ ~ ~ minecraft:oak_sapling[stage=0] if score @s gs.temp matches 0 run setblock ~ ~ ~ minecraft:oak_sapling[stage=1]
 
-execute align y positioned ~ ~0.5 ~ run particle minecraft:happy_villager ~ ~ ~ 0 0 0 50 10 normal
+execute if block ~ ~ ~ #gs:air if block ~ ~-1 ~ minecraft:grass_block run function gs:blocks/grass_block
+
+execute unless block ~ ~-1 ~ #gs:air align y positioned ~ ~0.5 ~ run particle minecraft:happy_villager ~ ~ ~ 0 0 0 50 10 normal
 kill @s
