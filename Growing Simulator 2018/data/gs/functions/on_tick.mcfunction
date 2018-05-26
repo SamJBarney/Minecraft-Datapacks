@@ -7,5 +7,5 @@ execute as @e[tag=twerk_unspread] run tag @s remove twerk_unspread
 execute as @a[scores={croutching=0,twerk_ready=1}] at @s run function gs:on_twerk
 scoreboard players set @a croutching 0
 
-scoreboard players add "growth_chance" gs.globals 1
-execute if score "growth_chance" gs.globals matches 1000.. run scoreboard players set "growth_chance" gs.globals 0
+scoreboard players add growth_chance gs.globals 1
+execute if score growth_chance gs.globals matches 1000.. run scoreboard players set growth_chance gs.globals 0
