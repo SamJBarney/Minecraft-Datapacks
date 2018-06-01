@@ -41,5 +41,5 @@ execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecra
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:oak_sapling[stage=0] run scoreboard players operation @s gs.temp %= grow_chance.oak_sapling gs.config
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:oak_sapling[stage=0] if score @s gs.temp matches 0 run setblock ~ ~ ~ minecraft:oak_sapling[stage=1]
 
-execute unless block ~ ~-1 ~ #gs:air align y positioned ~ ~0.5 ~ run particle minecraft:happy_villager ~ ~ ~ 0 0 0 50 10 normal
+execute unless block ~ ~-1 ~ #gs:air align y positioned ~ ~0.5 ~ run particle minecraft:happy_villager ~ ~ ~ 0.3 0.1 0.3 50 10 normal
 kill @s
