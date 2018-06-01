@@ -1,5 +1,5 @@
 # Flatten bedrock in unclean chunks
-execute as @e[tag=marker_alter,sort=nearest,limit=1] at @s run function bedrock:funcs/tick_alter_marker
+execute if score alter_timer bedrock.timer matches 20.. as @e[tag=marker_alter,sort=nearest,limit=1] at @s run function bedrock:funcs/tick_alter_marker
 
 # Make sure marker is in unclean chunk
 execute as @e[tag=marker_initial,distance=..64] at @s run function bedrock:funcs/tick_initial_marker
