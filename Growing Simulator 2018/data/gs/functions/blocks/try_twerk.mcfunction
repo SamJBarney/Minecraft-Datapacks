@@ -19,6 +19,10 @@ execute if score disable.grow_potato gs.config matches 0 if block ~ ~ ~ minecraf
 execute if score disable.grow_beetroot gs.config matches 0 if block ~ ~ ~ minecraft:beetroots run scoreboard players operation @s gs.temp %= grow_chance.beetroot gs.config
 execute if score disable.grow_beetroot gs.config matches 0 if block ~ ~ ~ minecraft:beetroots if score @s gs.temp matches 0 run function gs:blocks/beetroots
 
+execute if score disable.grow_beetroot gs.config matches 0 if block ~ ~ ~ minecraft:cactus run scoreboard players operation @s gs.temp %= grow_chance.cactus gs.config
+execute if score disable.grow_beetroot gs.config matches 0 if block ~ ~ ~ minecraft:cactus if score @s gs.temp matches 0 run function gs:blocks/cactus
+
+
 # Block spawning stuff
 execute if score disable.spawn_on_growable gs.config matches 0 if block ~ ~ ~ #gs:air if block ~ ~-1 ~ #gs:land_spawnable run function gs:blocks/spawn_on_block
 

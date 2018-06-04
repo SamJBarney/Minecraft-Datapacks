@@ -16,6 +16,7 @@ scoreboard players set grow_chance.melon gs.config 4
 scoreboard players set grow_chance.potato gs.config 4
 scoreboard players set grow_chance.pumpkin gs.config 4
 scoreboard players set grow_chance.wheat gs.config 4
+scoreboard players set grow_chance.cactus gs.config 4
 
 # Saplings
 scoreboard players set grow_chance.acacia_sapling gs.config 2
@@ -30,8 +31,8 @@ scoreboard players set spawn_chance.grass gs.config 4
 scoreboard players set spawn_chance.fern gs.config 56
 scoreboard players set spawn_chance.flowers gs.config 75
 scoreboard players set spawn_chance.saplings gs.config 1000
-scoreboard players set spawn_chance.dead_bush gs.config 102
-scoreboard players set spawn_chance.cactus gs.config 1000
+scoreboard players set spawn_chance.dead_bush gs.config 65
+scoreboard players set spawn_chance.cactus gs.config 500
 
 # Disable/enable
 scoreboard players set disable.spawn_on_growable gs.config 0
@@ -49,6 +50,7 @@ scoreboard players set disable.grow_melon gs.config 0
 scoreboard players set disable.grow_potato gs.config 0
 scoreboard players set disable.grow_pumpkin gs.config 0
 scoreboard players set disable.grow_wheat gs.config 0
+scoreboard players set disable.grow_cactus gs.config 0
 
 
 # Globals
