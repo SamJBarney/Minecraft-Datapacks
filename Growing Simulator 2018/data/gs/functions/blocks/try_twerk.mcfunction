@@ -19,8 +19,8 @@ execute if score disable.grow_potato gs.config matches 0 if block ~ ~ ~ minecraf
 execute if score disable.grow_beetroot gs.config matches 0 if block ~ ~ ~ minecraft:beetroots run scoreboard players operation @s gs.temp %= grow_chance.beetroot gs.config
 execute if score disable.grow_beetroot gs.config matches 0 if block ~ ~ ~ minecraft:beetroots if score @s gs.temp matches 0 run function gs:blocks/beetroots
 
-# Grass spawning stuff
-execute if score disable.spawn_on_grass gs.config matches 0 if block ~ ~ ~ #gs:air if block ~ ~-1 ~ minecraft:grass_block run function gs:blocks/grass_block
+# Block spawning stuff
+execute if score disable.spawn_on_growable gs.config matches 0 if block ~ ~ ~ #gs:air if block ~ ~-1 ~ #gs:land_spawnable run function gs:blocks/spawn_on_block
 
 # Saplings
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:acacia_sapling[stage=0] run scoreboard players operation @s gs.temp %= grow_chance.acacia_sapling gs.config
@@ -41,5 +41,5 @@ execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecra
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:oak_sapling[stage=0] run scoreboard players operation @s gs.temp %= grow_chance.oak_sapling gs.config
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:oak_sapling[stage=0] if score @s gs.temp matches 0 run setblock ~ ~ ~ minecraft:oak_sapling[stage=1]
 
-execute unless block ~ ~-1 ~ #gs:air align y positioned ~ ~0.5 ~ run particle minecraft:happy_villager ~ ~ ~ 0.3 0.1 0.3 50 10 normal
+execute if block ~ ~-1 ~ #gs:land_growable align y positioned ~ ~0.5 ~ run particle minecraft:happy_villager ~ ~ ~ 0.3 0.1 0.3 50 10 normal
 kill @s

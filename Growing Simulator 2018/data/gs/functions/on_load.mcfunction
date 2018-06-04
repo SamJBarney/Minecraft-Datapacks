@@ -28,15 +28,19 @@ scoreboard players set grow_chance.oak_sapling gs.config 2
 # Spawn Chance
 scoreboard players set spawn_chance.grass gs.config 4
 scoreboard players set spawn_chance.fern gs.config 56
-scoreboard players set spawn_chance.flowers gs.config 9
+scoreboard players set spawn_chance.flowers gs.config 75
 scoreboard players set spawn_chance.saplings gs.config 1000
+scoreboard players set spawn_chance.dead_bush gs.config 102
+scoreboard players set spawn_chance.cactus gs.config 1000
 
 # Disable/enable
-scoreboard players set disable.spawn_on_grass gs.config 0
+scoreboard players set disable.spawn_on_growable gs.config 0
 scoreboard players set disable.spawn_grass gs.config 0
 scoreboard players set disable.spawn_fern gs.config 0
 scoreboard players set disable.spawn_flowers gs.config 0
 scoreboard players set disable.spawn_saplings gs.config 0
+scoreboard players set disable.spawn_dead_bush gs.config 0
+scoreboard players set disable.spawn_cactus gs.config 0
 
 scoreboard players set disable.grow_sapling gs.config 0
 scoreboard players set disable.grow_beetroot gs.config 0
