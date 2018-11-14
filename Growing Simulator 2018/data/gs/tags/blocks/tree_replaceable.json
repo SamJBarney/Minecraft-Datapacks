@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+        "#gs:air",
+        "#minecraft:leaves"
+	]
+}
