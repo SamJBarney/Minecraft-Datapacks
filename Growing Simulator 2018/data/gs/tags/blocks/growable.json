@@ -1,0 +1,14 @@
+{
+	"replace": false,
+	"values": [
+        "#gs:air",
+        "#minecraft:saplings",
+        "minecraft:wheat",
+        "minecraft:carrots",
+        "minecraft:potatoes",
+        "minecraft:beetroots",
+        "minecraft:cactus",
+        "minecraft:pumpkin_stem",
+        "minecraft:melon_stem"
+	]
+}

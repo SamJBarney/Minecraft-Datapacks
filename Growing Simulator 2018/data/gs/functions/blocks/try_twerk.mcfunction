@@ -1,4 +1,5 @@
-scoreboard players operation @s gs.temp = growth_chance gs.globals
+function gs:utility/random
+scoreboard players operation @s gs.temp = @e[name=rand,tag=random] random
 
 # Crops
 execute if score disable.grow_wheat gs.config matches 0 if block ~ ~ ~ minecraft:wheat run scoreboard players operation @s gs.temp %= grow_chance.wheat gs.config
@@ -46,5 +47,5 @@ execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecra
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:oak_sapling[stage=1] if score @s gs.temp matches 0 run function gs:blocks/oak_sapling
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:oak_sapling[stage=0] if score @s gs.temp matches 0 run setblock ~ ~ ~ minecraft:oak_sapling[stage=1]
 
-execute if block ~ ~-1 ~ #gs:land_growable align y positioned ~ ~0.5 ~ run particle minecraft:happy_villager ~ ~ ~ 0.3 0.1 0.3 50 10 normal
+execute if block ~ ~-1 ~ #gs:land_growable align y positioned ~ ~0.5 ~ run particle minecraft:happy_villager ~ ~ ~ 0.3 0.1 0.3 50 3 normal
 kill @s
