@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "group": "sapling",
+    "ingredients": [
+        {
+            "item": "minecraft:spruce_log"
+        },
+        {
+            "item": "minecraft:wooden_axe"
+        }
+    ],
+    "result": {
+      "item": "minecraft:spruce_sapling"
+    }
+  }

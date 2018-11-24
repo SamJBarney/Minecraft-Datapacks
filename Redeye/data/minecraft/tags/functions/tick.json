@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "redeye:on_tick"
+    ]
+}

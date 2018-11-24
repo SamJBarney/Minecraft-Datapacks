@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "group": "sapling",
+    "ingredients": [
+        {
+            "item": "minecraft:dark_oak_log"
+        },
+        {
+            "item": "minecraft:wooden_axe"
+        }
+    ],
+    "result": {
+      "item": "minecraft:dark_oak_sapling"
+    }
+  }

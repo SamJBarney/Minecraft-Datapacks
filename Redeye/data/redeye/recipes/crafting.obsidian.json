@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "group": "sapling",
+    "ingredients": [
+        {
+            "item": "minecraft:water_bucket"
+        },
+        {
+            "item": "minecraft:lava_bucket"
+        }
+    ],
+    "result": {
+      "item": "minecraft:obsidian"
+    }
+  }

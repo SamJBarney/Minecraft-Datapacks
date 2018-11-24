@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "minecraft:gravel"
+    },
+    "result": "minecraft:cobblestone",
+    "experience": 0,
+    "cookingtime": 400
+}
