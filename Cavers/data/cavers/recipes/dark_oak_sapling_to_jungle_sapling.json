@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "group": "sapling",
+  "ingredients": [
+      {
+          "item": "minecraft:dark_oak_sapling"
+      }
+  ],
+  "result": {
+    "item": "minecraft:jungle_sapling"
+  }
+}
