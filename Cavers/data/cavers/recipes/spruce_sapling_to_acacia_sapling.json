@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "group": "sapling",
+  "ingredients": [
+      {
+          "item": "minecraft:spruce_sapling"
+      }
+  ],
+  "result": {
+    "item": "minecraft:acacia_sapling"
+  }
+}
