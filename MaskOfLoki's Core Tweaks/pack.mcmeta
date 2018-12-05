@@ -1,11 +1,7 @@
 {
 	"pack": {
 		"pack_format": 1,
-    "version": {
-      "major": 0,
-      "minor": 1,
-      "revision": 0
-    },
+    "version": [0, 1, 0],
 		"description": "Core changes to Minecraft, including new or replaced recipes, new items, and villager trades."
 	}
 }
