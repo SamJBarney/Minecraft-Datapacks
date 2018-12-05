@@ -1,5 +1,5 @@
-execute store result score temp mct run data get entity @s UUIDLeast
-execute if score temp mct matches ..-1 run scoreboard players operation temp mct *= neg1 mct
+execute store result score uuid mct run data get entity @s UUIDLeast 0.0000000001
+execute if score uuid mct matches ..-1 run scoreboard players operation uuid mct *= neg1 mct
 
 execute if entity @s[nbt={Profession:0,Career:1}] run function #mct:process_farmer
 execute if entity @s[nbt={Profession:0,Career:2}] run function #mct:process_fisherman
