@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    {
+      "item": "minecraft:bonemeal"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lily_of_the_valley",
+    "count": 2
+  }
+}

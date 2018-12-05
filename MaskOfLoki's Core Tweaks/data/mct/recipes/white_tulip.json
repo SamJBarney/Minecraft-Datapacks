@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "minecraft:white_tulip"
+    },
+    {
+      "item": "minecraft:bonemeal"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_tulip",
+    "count": 2
+  }
+}

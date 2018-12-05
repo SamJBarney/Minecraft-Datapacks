@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "minecraft:bonemeal"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dandelion",
+    "count": 2
+  }
+}

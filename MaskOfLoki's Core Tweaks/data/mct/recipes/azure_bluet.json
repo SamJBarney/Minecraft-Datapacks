@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "minecraft:azure_bluet"
+    },
+    {
+      "item": "minecraft:bonemeal"
+    }
+  ],
+  "result": {
+    "item": "minecraft:azure_bluet",
+    "count": 2
+  }
+}

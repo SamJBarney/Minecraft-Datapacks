@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "minecraft:oxeye_daisy"
+    },
+    {
+      "item": "minecraft:bonemeal"
+    }
+  ],
+  "result": {
+    "item": "minecraft:oxeye_daisy",
+    "count": 2
+  }
+}
