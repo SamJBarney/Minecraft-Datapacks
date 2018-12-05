@@ -32,7 +32,7 @@
           "type": "minecraft:alternatives",
           "conditions": [
             {
-              "type": "minecraft:inverted",
+              "condition": "minecraft:inverted",
               "term": {
                 "condition": "minecraft:match_tool",
                 "predicate": {

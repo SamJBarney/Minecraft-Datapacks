@@ -55,7 +55,7 @@
           ],
           "children": [
             {
-              "type": "minecraft:alternatives",
+              "type": "minecraft:item",
               "conditions": [
                 {
                   "condition": "minecraft:table_bonus",
