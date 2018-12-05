@@ -1,0 +1,1 @@
+#execute as @e[type=slime] at @s run function glimes:tick_slimes

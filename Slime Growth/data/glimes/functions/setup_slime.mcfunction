@@ -1,0 +1,1 @@
+data merge entity @s {Nutrition:0,DigestTime:-1}
