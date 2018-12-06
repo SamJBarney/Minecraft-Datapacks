@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "mct:entities/villagers/process_weaponsmith"
+    "mct:entities/villagers/process_weapon_smith"
   ]
 }
