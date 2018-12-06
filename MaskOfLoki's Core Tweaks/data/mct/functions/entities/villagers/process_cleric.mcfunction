@@ -1,1 +1,1 @@
-data merge entity @s {CustomName:"[\"Cleric\"]"}
+data merge entity @s {CustomName:"{\"translate\":\"entity.minecraft.villager.cleric\"}"}
