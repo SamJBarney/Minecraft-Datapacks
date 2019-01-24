@@ -1,5 +1,5 @@
 function gs:utility/random
-scoreboard players operation @s gs.temp = @e[name=rand,tag=random] random
+scoreboard players operation @s gs.temp = @e[name=rand,tag=random,limit=1] random
 
 # Crops
 execute if score disable.grow_wheat gs.config matches 0 if block ~ ~ ~ minecraft:wheat run scoreboard players operation @s gs.temp %= grow_chance.wheat gs.config
@@ -22,7 +22,6 @@ execute if score disable.grow_beetroot gs.config matches 0 if block ~ ~ ~ minecr
 
 execute if score disable.grow_beetroot gs.config matches 0 if block ~ ~ ~ minecraft:cactus run scoreboard players operation @s gs.temp %= grow_chance.cactus gs.config
 execute if score disable.grow_beetroot gs.config matches 0 if block ~ ~ ~ minecraft:cactus if score @s gs.temp matches 0 run function gs:blocks/cactus
-
 
 # Block spawning stuff
 execute if score disable.spawn_on_growable gs.config matches 0 if block ~ ~ ~ #gs:air if block ~ ~-1 ~ #gs:land_spawnable run function gs:blocks/spawn_on_block
