@@ -5,3 +5,4 @@ execute if block ~ ~ ~ minecraft:carrots[age=3] run setblock ~ ~ ~ minecraft:car
 execute if block ~ ~ ~ minecraft:carrots[age=2] run setblock ~ ~ ~ minecraft:carrots[age=3]
 execute if block ~ ~ ~ minecraft:carrots[age=1] run setblock ~ ~ ~ minecraft:carrots[age=2]
 execute if block ~ ~ ~ minecraft:carrots[age=0] run setblock ~ ~ ~ minecraft:carrots[age=1]
+particle minecraft:happy_villager ~ ~ ~ 1 0.5 1 50 10 normal

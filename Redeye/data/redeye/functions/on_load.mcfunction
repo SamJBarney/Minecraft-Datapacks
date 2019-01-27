@@ -1,6 +1,4 @@
-gamerule randomTickSpeed 0
-gamerule doDaylightCycle false
-time set midnight
+scoreboard objectives add versions dummy
+scoreboard players add redeye versions 0
 
-scoreboard objectives add crafted_obsidian dummy
-
+execute if score redeye versions matches 0 run function redeye:versions/1

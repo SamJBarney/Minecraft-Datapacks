@@ -29,25 +29,30 @@ execute if score disable.spawn_on_growable gs.config matches 0 if block ~ ~ ~ #g
 # Saplings
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:acacia_sapling[stage=0] run scoreboard players operation @s gs.temp %= grow_chance.acacia_sapling gs.config
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:acacia_sapling[stage=0] if score @s gs.temp matches 0 run setblock ~ ~ ~ minecraft:acacia_sapling[stage=1]
+execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:acacia_sapling if score @s gs.temp matches 0 run particle minecraft:happy_villager ~ ~ ~ 1 0.5 1 50 10 normal
 
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:birch_sapling run scoreboard players operation @s gs.temp %= grow_chance.birch_sapling gs.config
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:birch_sapling[stage=1] if score @s gs.temp matches 0 run function gs:blocks/birch_sapling
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:birch_sapling[stage=0] if score @s gs.temp matches 0 run setblock ~ ~ ~ minecraft:birch_sapling[stage=1]
+execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:birch_sapling if score @s gs.temp matches 0 run particle minecraft:happy_villager ~ ~ ~ 1 0.5 1 50 10 normal
 
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:dark_oak_sapling[stage=0] run scoreboard players operation @s gs.temp %= grow_chance.dark_oak_sapling gs.config
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:dark_oak_sapling[stage=0] if score @s gs.temp matches 0 run setblock ~ ~ ~ minecraft:dark_oak_sapling[stage=1]
+execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:dark_oak_sapling if score @s gs.temp matches 0 run particle minecraft:happy_villager ~ ~ ~ 1 0.5 1 50 10 normal
 
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:jungle_sapling run scoreboard players operation @s gs.temp %= grow_chance.jungle_sapling gs.config
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:jungle_sapling[stage=1] if score @s gs.temp matches 0 run function gs:blocks/jungle_sapling
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:jungle_sapling[stage=0] if score @s gs.temp matches 0 run setblock ~ ~ ~ minecraft:jungle_sapling[stage=1]
+execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:jungle_sapling if score @s gs.temp matches 0 run particle minecraft:happy_villager ~ ~ ~ 1 0.5 1 50 10 normal
 
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:spruce_sapling run scoreboard players operation @s gs.temp %= grow_chance.spruce_sapling gs.config
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:spruce_sapling[stage=1] if score @s gs.temp matches 0 run function gs:blocks/spruce_sapling
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:spruce_sapling[stage=0] if score @s gs.temp matches 0 run setblock ~ ~ ~ minecraft:spruce_sapling[stage=1]
+execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:spruce_sapling if score @s gs.temp matches 0 run particle minecraft:happy_villager ~ ~ ~ 1 0.5 1 50 10 normal
 
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:oak_sapling run scoreboard players operation @s gs.temp %= grow_chance.oak_sapling gs.config
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:oak_sapling[stage=1] if score @s gs.temp matches 0 run function gs:blocks/oak_sapling
 execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:oak_sapling[stage=0] if score @s gs.temp matches 0 run setblock ~ ~ ~ minecraft:oak_sapling[stage=1]
+execute if score disable.grow_sapling gs.config matches 0 if block ~ ~ ~ minecraft:oak_sapling if score @s gs.temp matches 0 run particle minecraft:happy_villager ~ ~ ~ 1 0.5 1 50 10 normal
 
-execute if block ~ ~-1 ~ #gs:land_growable align y positioned ~ ~0.5 ~ run particle minecraft:happy_villager ~ ~ ~ 0.3 0.1 0.3 50 3 normal
 kill @s
