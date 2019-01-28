@@ -18,4 +18,4 @@ execute unless block ~ ~1 ~ minecraft:cactus if block ~ ~ ~ minecraft:cactus[age
 execute unless block ~ ~1 ~ minecraft:cactus if block ~ ~ ~ minecraft:cactus[age=2] run setblock ~ ~ ~ minecraft:cactus[age=3]
 execute unless block ~ ~1 ~ minecraft:cactus if block ~ ~ ~ minecraft:cactus[age=1] run setblock ~ ~ ~ minecraft:cactus[age=2]
 execute unless block ~ ~1 ~ minecraft:cactus if block ~ ~ ~ minecraft:cactus[age=0] run setblock ~ ~ ~ minecraft:cactus[age=1]
-particle minecraft:happy_villager ~ ~ ~ 1 0.5 1 50 10 normal
+particle minecraft:happy_villager ~ ~0.5 ~ 0.5 0.5 0.5 50 10 normal

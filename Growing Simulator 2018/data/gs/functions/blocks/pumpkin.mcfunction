@@ -5,4 +5,4 @@ execute if block ~ ~ ~ minecraft:pumpkin_stem[age=3] run setblock ~ ~ ~ minecraf
 execute if block ~ ~ ~ minecraft:pumpkin_stem[age=2] run setblock ~ ~ ~ minecraft:pumpkin_stem[age=3]
 execute if block ~ ~ ~ minecraft:pumpkin_stem[age=1] run setblock ~ ~ ~ minecraft:pumpkin_stem[age=2]
 execute if block ~ ~ ~ minecraft:pumpkin_stem[age=0] run setblock ~ ~ ~ minecraft:pumpkin_stem[age=1]
-particle minecraft:happy_villager ~ ~ ~ 1 0.5 1 50 10 normal
+particle minecraft:happy_villager ~ ~0.5 ~ 0.5 0.5 0.5 50 10 normal

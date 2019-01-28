@@ -6,10 +6,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:acacia_sapling"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:birch_sapling"
         },
         {
@@ -27,11 +23,11 @@
       ]
     },
     {
-      "rolls": 2,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dirt",
+          "name": "minecraft:coarse_dirt",
           "functions": [
             {
               "function": "minecraft:set_count",

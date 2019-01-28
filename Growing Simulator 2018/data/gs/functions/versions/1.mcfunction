@@ -54,6 +54,4 @@ scoreboard players set disable.grow_pumpkin gs.config 0
 scoreboard players set disable.grow_wheat gs.config 0
 scoreboard players set disable.grow_cactus gs.config 0
 
-function gs:utility/setup_random
-
 scoreboard players add gs versions 1
