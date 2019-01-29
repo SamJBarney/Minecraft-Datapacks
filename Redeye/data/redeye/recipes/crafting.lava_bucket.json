@@ -1,25 +1,25 @@
 {
-    "type": "crafting_shaped",
-    "pattern": [
-      "@@@",
-      "@@@",
-      "$#!"
-    ],
-    "key": {
-      "#": {
-        "item": "minecraft:bucket"
-      },
-      "!": {
-          "item": "minecraft:charcoal"
-      },
-      "@": {
-          "item": "minecraft:stone"
-      },
-      "$": {
-          "item": "minecraft:flint_and_steel"
-      }
+  "type": "crafting_shaped",
+  "pattern": [
+    "@@@",
+    "@@@",
+    "$#!"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bucket"
     },
-    "result": {
-      "item": "minecraft:lava_bucket"
+    "!": {
+        "item": "minecraft:charcoal"
+    },
+    "@": {
+        "item": "minecraft:stone"
+    },
+    "$": {
+        "item": "minecraft:flint_and_steel"
     }
+  },
+  "result": {
+    "item": "minecraft:lava_bucket"
   }
+}
