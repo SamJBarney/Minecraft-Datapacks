@@ -73,7 +73,20 @@
               }
             }
           ]
-        },
+        }
+      ],
+      "conditions": [
+          {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                  "item": "minecraft:cobweb"
+              }
+          }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries":[
         {
           "type": "minecraft:item",
           "conditions": [
