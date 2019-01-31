@@ -1,5 +1,6 @@
 {
   "type": "crafting_shapeless",
+  "group": "coarse_dirt",
   "ingredients": [
     {
       "tag": "redeye:dirtable"
