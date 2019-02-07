@@ -1,0 +1,6 @@
+{
+	"pack": {
+		"pack_format": 1,
+		"description": "Renewal's Core datapack. Must be loaded before the others."
+	}
+}

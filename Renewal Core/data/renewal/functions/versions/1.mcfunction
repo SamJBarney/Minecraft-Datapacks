@@ -1,0 +1,1 @@
+scoreboard objectives add renewal.item_id dummy

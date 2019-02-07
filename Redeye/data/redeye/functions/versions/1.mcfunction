@@ -1,4 +1,3 @@
-gamerule randomTickSpeed 0
 gamerule doDaylightCycle false
 gamerule spawnRadius 0
 
