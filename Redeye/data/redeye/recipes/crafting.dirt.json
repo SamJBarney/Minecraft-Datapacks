@@ -1,6 +1,6 @@
 {
   "type": "crafting_shapeless",
-  "group": "coarse_dirt",
+  "group": "dirt",
   "ingredients": [
     {
       "tag": "redeye:dirtable"
@@ -15,13 +15,13 @@
       "tag": "redeye:dirtable"
     },
     {
-      "item": "minecraft:charcoal"
+      "tag": "redeye:dirtable"
     },
     {
-      "item": "minecraft:bone"
+      "tag": "redeye:dirtable"
     },
     {
-      "item": "minecraft:bone"
+      "tag": "redeye:dirtable"
     },
     {
       "item": "minecraft:gunpowder"
@@ -31,7 +31,6 @@
     }
   ],
   "result": {
-    "item": "minecraft:coarse_dirt",
-    "count": 2
+    "item": "minecraft:dirt"
   }
 }
