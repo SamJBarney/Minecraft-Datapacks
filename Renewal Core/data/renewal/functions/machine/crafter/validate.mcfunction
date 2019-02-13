@@ -1,0 +1,3 @@
+scoreboard players set @s valid_multiblock 0
+
+execute if block ~ ~ ~ #minecraft:logs if block ~ ~1 ~ minecraft:campfire if block ~3 ~ ~ minecraft:campfire if block ~-3 ~ ~ minecraft:campfire if block ~ ~ ~3 minecraft:campfire if block ~ ~ ~-3 minecraft:campfire if block ~2 ~ ~2 minecraft:campfire if block ~2 ~ ~-2 minecraft:campfire if block ~-2 ~ ~-2 minecraft:campfire if block ~-2 ~ ~2 minecraft:campfire run scoreboard players set @s valid_multiblock 1

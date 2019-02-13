@@ -1,0 +1,2 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ minecraft:campfire[lit=true] unless entity @e[type=item,distance=..0.5] run setblock ~ ~ ~ minecraft:campfire[lit=false]
+execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ minecraft:campfire[lit=false] if entity @e[type=item,distance=..0.5] run setblock ~ ~ ~ minecraft:campfire[lit=true]
