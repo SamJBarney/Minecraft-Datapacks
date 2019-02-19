@@ -49,6 +49,16 @@
             },
             {
               "type": "minecraft:item",
+              "name": "minecraft:flint",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.35
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
               "name": "minecraft:gravel"
             }
           ]
