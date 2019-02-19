@@ -1,1 +1,1 @@
-execute if score @s machine_id matches 0 run function renewal:machine/crafter_tick
+execute if entity @s[nbt={CustomName:"\"crafter\""}] run function renewal:machine/crafter_tick

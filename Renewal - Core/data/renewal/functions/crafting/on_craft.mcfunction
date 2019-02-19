@@ -1,0 +1,9 @@
+execute positioned ~ ~1.5 ~ as @e[type=item,distance=..0.5] run function renewal:crafting/remove_items
+execute positioned ~3 ~ ~ as @e[type=item,distance=..0.5] run function renewal:crafting/remove_items
+execute positioned ~-3 ~ ~ as @e[type=item,distance=..0.5] run function renewal:crafting/remove_items
+execute positioned ~ ~ ~3 as @e[type=item,distance=..0.5] run function renewal:crafting/remove_items
+execute positioned ~ ~ ~-3 as @e[type=item,distance=..0.5] run function renewal:crafting/remove_items
+execute positioned ~2 ~ ~2 as @e[type=item,distance=..0.5] run function renewal:crafting/remove_items
+execute positioned ~2 ~ ~-2 as @e[type=item,distance=..0.5] run function renewal:crafting/remove_items
+execute positioned ~-2 ~ ~-2 as @e[type=item,distance=..0.5] run function renewal:crafting/remove_items
+execute positioned ~-2 ~ ~2 as @e[type=item,distance=..0.5] run function renewal:crafting/remove_items
