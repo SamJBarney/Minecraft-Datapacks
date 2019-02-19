@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shapeless",
+  "group": "small_flowers",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    }
+  ],
+  "result": {
+    "item": "minecraft:obsidian",
+    "count": 1
+  }
+}
