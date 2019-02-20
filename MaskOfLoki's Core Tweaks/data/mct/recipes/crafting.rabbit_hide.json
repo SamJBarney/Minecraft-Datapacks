@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shapeless",
+  "group": "small_flowers",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "result": {
+    "item": "minecraft:rabbit_hide",
+    "count": 2
+  }
+}
