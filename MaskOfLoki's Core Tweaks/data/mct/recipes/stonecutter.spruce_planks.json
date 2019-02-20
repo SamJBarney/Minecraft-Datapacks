@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "wooden_planks",
+  "ingredient": {
+    "item": "minecraft:spruce_log"
+  },
+  "result": "minecraft:spruce_planks",
+  "count": 5
+}

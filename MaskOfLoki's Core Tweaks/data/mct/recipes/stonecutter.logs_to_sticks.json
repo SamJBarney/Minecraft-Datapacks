@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "sticks",
+  "ingredient": {
+    "tag": "minecraft:logs"
+  },
+  "result": "minecraft:stick",
+  "count": 15
+}
