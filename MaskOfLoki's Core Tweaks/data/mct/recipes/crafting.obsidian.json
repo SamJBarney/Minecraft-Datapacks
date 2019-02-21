@@ -1,6 +1,5 @@
 {
   "type": "crafting_shapeless",
-  "group": "small_flowers",
   "ingredients": [
     {
       "item": "minecraft:water_bucket"
