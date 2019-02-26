@@ -73,13 +73,6 @@
                   "condition": "minecraft:survives_explosion"
                 },
                 {
-                  "condition": "minecraft:block_state_property",
-                  "block": "minecraft:tall_grass",
-                  "properties": {
-                    "half": "lower"
-                  }
-                },
-                {
                   "condition": "minecraft:random_chance",
                   "chance": 0.015625
                 }
@@ -91,13 +84,6 @@
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"
-                },
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "minecraft:tall_grass",
-                  "properties": {
-                    "half": "lower"
-                  }
                 },
                 {
                   "condition": "minecraft:random_chance",
@@ -113,13 +99,6 @@
                   "condition": "minecraft:survives_explosion"
                 },
                 {
-                  "condition": "minecraft:block_state_property",
-                  "block": "minecraft:tall_grass",
-                  "properties": {
-                    "half": "lower"
-                  }
-                },
-                {
                   "condition": "minecraft:random_chance",
                   "chance": 0.015625
                 }
@@ -131,13 +110,6 @@
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"
-                },
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "minecraft:tall_grass",
-                  "properties": {
-                    "half": "lower"
-                  }
                 },
                 {
                   "condition": "minecraft:random_chance",
