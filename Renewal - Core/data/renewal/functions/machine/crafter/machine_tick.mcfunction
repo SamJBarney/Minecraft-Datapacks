@@ -1,1 +1,1 @@
-execute if entity @s[nbt={CustomName:"\"crafter\""}] run function renewal:machine/crafter_tick
+execute if entity @s[nbt={CustomName:'{"text":"crafter"}'}] run function renewal:machine/crafter_tick

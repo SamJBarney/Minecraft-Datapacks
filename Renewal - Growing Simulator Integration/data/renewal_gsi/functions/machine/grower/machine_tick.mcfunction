@@ -1,1 +1,1 @@
-execute if entity @s[nbt={CustomName:"\"grower\""}] run function renewal:machine/grower_tick
+execute if entity @s[nbt={CustomName:'{"text":"grower"}'}] run function renewal_gsi:machine/grower_tick
