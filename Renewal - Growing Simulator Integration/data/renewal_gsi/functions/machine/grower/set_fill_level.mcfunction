@@ -1,7 +1,7 @@
 function gs:utility/random
 scoreboard players operation temp temp = @e[name=rand,tag=random,limit=1] random
 
-scoreboard players set temp gs.temp 60
+scoreboard players set temp gs.temp 95
 
 scoreboard players operation temp temp %= temp gs.temp
 
