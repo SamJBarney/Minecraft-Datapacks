@@ -1,0 +1,9 @@
+execute if block ~ ~ ~ minecraft:composter[level=0] run scoreboard players set @s temp 0
+execute if block ~ ~ ~ minecraft:composter[level=1] run scoreboard players set @s temp 1
+execute if block ~ ~ ~ minecraft:composter[level=2] run scoreboard players set @s temp 2
+execute if block ~ ~ ~ minecraft:composter[level=3] run scoreboard players set @s temp 3
+execute if block ~ ~ ~ minecraft:composter[level=4] run scoreboard players set @s temp 4
+execute if block ~ ~ ~ minecraft:composter[level=5] run scoreboard players set @s temp 5
+execute if block ~ ~ ~ minecraft:composter[level=6] run scoreboard players set @s temp 6
+execute if block ~ ~ ~ minecraft:composter[level=7] run scoreboard players set @s temp 7
+execute if block ~ ~ ~ minecraft:composter[level=8] run scoreboard players set @s temp 7

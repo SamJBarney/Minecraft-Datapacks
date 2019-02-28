@@ -1,35 +1,22 @@
 {
-  "type": "crafting_shapeless",
+  "type": "crafting_shaped",
   "group": "dirt",
-  "ingredients": [
-    {
+  "pattern": [
+    "$#%",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
       "tag": "redeye:dirtable"
     },
-    {
-      "tag": "redeye:dirtable"
-    },
-    {
-      "tag": "redeye:dirtable"
-    },
-    {
-      "tag": "redeye:dirtable"
-    },
-    {
-      "tag": "redeye:dirtable"
-    },
-    {
-      "tag": "redeye:dirtable"
-    },
-    {
-      "tag": "redeye:dirtable"
-    },
-    {
+    "$": {
       "item": "minecraft:gunpowder"
     },
-    {
+    "%": {
       "item": "minecraft:bone_meal"
     }
-  ],
+  },
   "result": {
     "item": "minecraft:dirt"
   }

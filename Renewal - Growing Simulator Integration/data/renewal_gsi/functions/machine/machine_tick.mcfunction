@@ -1,0 +1,2 @@
+execute if entity @s[nbt={CustomName:'{"text":"grower"}'}] run function renewal_gsi:machine/grower/on_tick
+execute if entity @s[nbt={CustomName:'{"text":"grower_setup"}'}] run function renewal_gsi:machine/grower/on_place

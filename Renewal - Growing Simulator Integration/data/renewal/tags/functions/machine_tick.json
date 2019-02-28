@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "renewal_gsi:machine/grower/machine_tick"
+    "renewal_gsi:machine/machine_tick"
   ]
 }
